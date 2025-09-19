@@ -38,15 +38,16 @@
       </div>
 
       <h1 id="form-title">Feedback Form</h1>
+      <div class="form">
     <form>
       
       
       <label for="name">Name:</label>
-      <input type="text"  name="name" required>
+      <input type="text" id="name" name="name" required>
 
      
       <label for="email">Email:</label>
-      <input type="email"  name="email" required>
+      <input type="email" id="email" name="email" required>
 
   
       <label for="role">Role:</label>
@@ -59,14 +60,15 @@
 
       
       <label>Do you like this course?</label>
+      <div class="input">
       <input type="radio" name="like" value="yes"> Yes
       <input type="radio" name="like" value="no"> No
-
+</div>
    
       <label for="comments">Comments:</label>
       <textarea id="comments" name="comments" rows="4"></textarea>
 
       <button type="submit"class="btn">Submit</button>
-    </form>
+    </form></div>
 </body>
 </html>
